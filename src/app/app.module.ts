@@ -7,6 +7,7 @@ import { LayoutModule } from './layout/layout.module';
 import { AboutMeComponent } from './about-me/about-me.component';
 import { PortfolioComponent } from './portfolio/portfolio.component';
 import { ResumeComponent } from './resume/resume.component';
+import { ContactComponent } from './contact/contact.component';
 
 
 @NgModule({
@@ -14,7 +15,8 @@ import { ResumeComponent } from './resume/resume.component';
     AppComponent,
     AboutMeComponent,
     PortfolioComponent,
-    ResumeComponent
+    ResumeComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,
