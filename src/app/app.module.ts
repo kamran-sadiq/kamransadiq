@@ -6,6 +6,8 @@ import { AppComponent } from './app.component';
 import { LayoutModule } from './layout/layout.module';
 import { AboutMeComponent } from './about-me/about-me.component';
 import { AboutMeModule } from './about-me/about-me.module';
+import { PortfolioComponent } from './portfolio/portfolio.component';
+import { ProtFolioModule } from './portfolio/portfolio.module';
 
 
 @NgModule({
@@ -16,7 +18,8 @@ import { AboutMeModule } from './about-me/about-me.module';
     BrowserModule,
     AppRoutingModule,
     LayoutModule,
-    AboutMeModule
+    AboutMeModule,
+    ProtFolioModule
   ],
   providers: [],
   bootstrap: [AppComponent]
