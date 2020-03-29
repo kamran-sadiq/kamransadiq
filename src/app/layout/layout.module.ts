@@ -10,7 +10,6 @@ import { FooterComponent } from './footer/footer.component';
 @NgModule({
   imports: [
     CommonModule,
-    //FlexLayoutModule,
     RouterModule.forChild([])
   ],
   exports: [MainLayoutComponent],
