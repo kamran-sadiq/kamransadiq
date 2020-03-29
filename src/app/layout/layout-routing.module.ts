@@ -4,23 +4,7 @@ import { Routes, RouterModule } from '@angular/router';
 import { MainLayoutComponent } from './main-layout/main-layout.component';
 
 
-const routes : Routes = [
-  {
-    path:'',
-    redirectTo:'',
-    pathMatch: 'full' 
-  },
-  {
-    path: '',
-    component: MainLayoutComponent,
-    children: [
-      { path: 'dashboard', loadChildren: '../dashboard/dashboard.module#DashboardModule' },
-      { path: 'users', loadChildren: '../users/users.module#UsersModule' },
-      { path: 'account-settings', loadChildren: '../account-settings/account-settings.module#AccountSettingsModule' },
-    ]
-  },
-
-]
+const routes : Routes = []
 
 
 @NgModule({
@@ -29,3 +13,4 @@ const routes : Routes = [
   exports: [RouterModule]
 })
 export class LayoutRoutingModule { }
+

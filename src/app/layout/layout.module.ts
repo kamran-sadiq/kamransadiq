@@ -5,17 +5,18 @@ import {LayoutRoutingModule} from './layout-routing.module';
 import { HeaderComponent } from './header/header.component';
 import { MainLayoutComponent } from './main-layout/main-layout.component';
 import { RouterModule } from '@angular/router';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   imports: [
     CommonModule,
-    //FlexLayoutModule,
     RouterModule.forChild([])
   ],
   exports: [MainLayoutComponent],
   declarations: [
     MainLayoutComponent,
-    HeaderComponent
+    HeaderComponent,
+    FooterComponent
     
   ]
 })
