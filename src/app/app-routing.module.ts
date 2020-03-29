@@ -11,11 +11,12 @@ const routes: Routes = [
   {
     path: '',
     component: MainLayoutComponent,
+    
     children: [
-      { path: '', component: AboutMeComponent },
-      { path: 'portfolio', component: PortfolioComponent },
-      { path: 'resume', component: ResumeComponent },
-      { path: 'contact', component: ContactComponent },
+      { path: '', component: AboutMeComponent, data:{title:'About Me'} },
+      { path: 'portfolio', component: PortfolioComponent, data:{title:'Portfolio'} },
+      { path: 'resume', component: ResumeComponent, data:{title:'Resume'} },
+      { path: 'contact', component: ContactComponent, data:{title:'Contact'} },
     ]
   }
   
