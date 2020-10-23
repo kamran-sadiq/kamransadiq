@@ -2,13 +2,13 @@
     <section class="cta-section theme-bg-light py-5">
         <div class="container text-center single-col-max-width">
             <h2 class="heading mb-3">Online Resume</h2>
-            <a class="btn btn-primary" href="https://themes.3rdwavemedia.com/resources/sketch-template/resume-sketch-sketch-resume-template-for-software-developers/" target="_blank"><i class="fas fa-file-pdf mr-2"></i>Download PDF Version</a>
+            <a class="btn btn-primary" (click)="generatePDF()" ><i class="fas fa-file-pdf mr-2"></i>Download PDF Version</a>
             
             
         </div><!--//container-->
     </section>
     <div class="container px-3 px-lg-5">
-        <article class="resume-wrapper mx-auto theme-bg-light p-5 mb-5 my-5 shadow-lg">
+        <article class="resume-wrapper mx-auto theme-bg-light p-5 mb-5 my-5 shadow-lg" id="kamran-sadiq">
             
             <div class="resume-header">
                 <div class="row align-items-center">
@@ -20,7 +20,6 @@
                         <ul class="list-unstyled mb-0">
                             <li class="mb-2"><i class="fas fa-phone-square fa-fw fa-lg mr-2 "></i><a class="resume-link" href="tel:#">+92 323 6205729</a></li>
                             <li class="mb-2"><i class="fas fa-envelope-square fa-fw fa-lg mr-2"></i><a class="resume-link" href="mailto:#">kamransadiq111@gmail.com</a></li>
-                            <li class="mb-2"><i class="fas fa-globe fa-fw fa-lg mr-2"></i><a class="resume-link" href="#">www.kamransadiq.pk</a></li>
                             <li class="mb-0"><i class="fas fa-map-marker-alt fa-fw fa-lg mr-2"></i>Lahore Punjab Pakistan</li>
                         </ul>
                     </div><!--//resume-contact-->
@@ -30,7 +29,7 @@
             <hr>
             <div class="resume-intro py-3">
                 <div class="media flex-column flex-md-row align-items-center">
-                    <img class="resume-profile-image mb-3 mb-md-0 mr-md-5 ml-md-0 rounded mx-auto" src="assets/images/resume-profile.png" alt="image">
+                    <img class="resume-profile-image mb-3 mb-md-0 mr-md-5 ml-md-0 rounded mx-auto" src="assets/images/kamran.jpg" alt="image">
                     <div class="media-body text-left">
                         <p class="mb-0">Looking for a prospect where technical competence is valued and where I can make meaningful contribution to the growth of the company and can be a part of the technical innovation, willing to work as a key player in challenging & creative environment. I am seeking a challenging area of work to apply existing skills and to continue the learning process. </p>
                     </div><!--//media-body-->
@@ -45,113 +44,71 @@
                             <div class="item mb-3">
                                 <div class="item-heading row align-items-center mb-2">
                                     <h4 class="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0">Senior Software Engineer</h4>
-                                    <div class="item-meta col-12 col-md-6 col-lg-4 text-muted text-left text-md-right">Google | 2019 - Present</div>
+                                    <div class="item-meta col-12 col-md-6 col-lg-4 text-muted text-left text-md-right">ITBeam | 2019 - Present</div>
                                     
                                 </div>
                                 <div class="item-content">
-                                    <p>Role description goes here ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Donec pede justo, fringilla vel. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis.</p>
+                                    <p>Technical Responsibility</p>
                                     <ul class="resume-list">
-                                        <li>Lorem ipsum dolor sit amet, consectetuer.</li>
-                                        <li>Aenean commodo ligula eget dolor.</li>
-                                        <li>Etiam ultricies nisi vel augue.</li>
+                                        <li>Cloud Computing (AWS)</li>
+                                        <li>CI/CD Using Azure Devops</li>
+                                        <li>Database Management</li>
+                                        <li>Support for business application(s) to improve the stability and scalability</li>
+                                    </ul>
+                                </div>
+                                <div class="item-content">
+                                    <p>Technical Utilities</p>
+                                    <ul class="resume-list">
+                                        <li>Development:  .NET, .NET Core, SQL, Angular, JQuery, JSON</li>
+                                        <li>SCM: Git and extensively using branches, PRs</li>
+                                        <li>Documentation: Maintain/Secure APIs documentations using swagger</li>
+                                        <li>Pipeline: Azure Devops  </li>
+                                        <li>SDLC: Agile </li>
                                     </ul>
                                 </div>
                             </div><!--//item-->
                             <div class="item mb-3">
                                 <div class="item-heading row align-items-center mb-2">
-                                    <h4 class="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0">Lead Software Developer</h4>
-                                    <div class="item-meta col-12 col-md-6 col-lg-4 text-muted text-left text-md-right">Apple | 2016 - 2019</div>
+                                    <h4 class="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0">Full Stack Developer</h4>
+                                    <div class="item-meta col-12 col-md-6 col-lg-4 text-muted text-left text-md-right">Crunch Craft | 2017 - 2019</div>
                                     
                                 </div>
                                 <div class="item-content">
-                                    <p>Role description goes here ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Donec pede justo, fringilla vel.</p>
+                                    <p>Technical Responsibility</p>
                                     <ul class="resume-list">
-                                        <li>Lorem ipsum dolor sit amet, consectetuer.</li>
-                                        <li>Aenean commodo ligula eget dolor.</li>
+                                        <li>Design application using bootstrap and front end technologies (HTML, CSS, JavaScript, Jquery)</li>
+                                        <li>Develop the Web base application using MVC.NET (C#  SQL 2016) and Angular and JQuery</li>
+                                        <li>Written Stored Procedures, triggers using SQL in SQL Server 2014 or 2016.</li>
+                                        <li>Developed web  application using .NET APIs and Angular Framework</li>
+                                        <li>Worked in debugging an application using the debugging tools provided by the visual Studio IDE.</li>
+                                        <li>Functional domain experience involves learning management system, Portals, ecommerce</li>
                                     </ul>
                                 </div>
-                            </div><!--//item-->
-                            <div class="item mb-3">
-                                <div class="item-heading row align-items-center mb-2">
-                                    <h4 class="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0">Senior Software Developer</h4>
-                                    <div class="item-meta col-12 col-md-6 col-lg-4 text-muted text-left text-md-right">Dropbox | 2014 - 2016</div>
-                                    
-                                </div>
-                                <div class="item-content">
-                                    <p>Role description goes here ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
-                                </div>
-                            </div><!--//item-->
-                            <div class="item">
-                                <div class="item-heading row align-items-center mb-2">
-                                    <h4 class="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0">Senior Developer</h4>
-                                    <div class="item-meta col-12 col-md-6 col-lg-4 text-muted text-left text-md-right">Uber | 2013 - 2014</div>
-                                    
-                                </div>
-                                <div class="item-content">
-                                    <p>Role description goes here ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus. </p>
-                                </div>
-                            </div><!--//item-->
-                            <div class="item">
-                                <div class="item-heading row align-items-center mb-2">
-                                    <h4 class="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0">Backend Developer</h4>
-                                    <div class="item-meta col-12 col-md-6 col-lg-4 text-muted text-left text-md-right">Amazon | 2014 - 2016</div>
-                                    
-                                </div>
-                                <div class="item-content">
-                                    <p>Role description goes here ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
-                                </div>
-                            </div><!--//item-->
-                            <div class="item">
-                                <div class="item-heading row align-items-center mb-2">
-                                    <h4 class="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0">Frontend Developer</h4>
-                                    <div class="item-meta col-12 col-md-6 col-lg-4 text-muted text-left text-md-right">Startup | 2013 - 2014</div>
-                                    
-                                </div>
-                                <div class="item-content">
-                                    <p>Role description goes here ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus. </p>
-                                </div>
-                            </div><!--//item-->
-                            
-                        </section><!--//work-section-->
 
-                        
-                        <section class="project-section py-3">
-                            <h3 class="text-uppercase resume-section-heading mb-4">Projects</h3>
-                            <div class="item mb-3">
-                                <div class="item-heading row align-items-center mb-2">
-                                    <h4 class="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0">Project Lorem Ipsum</h4>
-                                    <div class="item-meta col-12 col-md-6 col-lg-4 text-muted text-left text-md-right">Open Source</div>
-                                    
-                                </div>
                                 <div class="item-content">
-                                    <p>You can use this section for your side projects. You can <a href="#" class="theme-link">provide a project link here</a> as well. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
-                                    
-                                    
+                                    <p>Other Responsibilities</p>
+                                    <ul class="resume-list">
+                                        <li>Design and Implementation Business Applications </li>
+                                        <li>Representation of the application to the business users and stack holders </li>
+                                        <li>Analyzing client existing systems and business models </li>
+                                        <li>Translating client requirements into high specified project briefs</li>
+                                        <li>Identifying options for potential solutions and assessing them for both technical and business suitability</li>
+                                        <li>Working closely with colleagues, developers, testers and a variety of end users to ensure technical compatibility and user satisfaction</li>
+                                        <li>Handling multiple projects  </li>
+                                        <li>Planning and working flexibly to deadlines </li>
+                                        <li>Responsible for data integrity </li>
+                                        <li>To ensure a top quality product that meets client needs </li>
+                                        <li>Provided weekly reports of Applications</li>
+                                        <li>Responsible for quality of work</li>
+                                        <li>Providing training and user manuals to users of a new system</li>
+                                        <li>Used Agile development approach</li>
+
+
+                                    </ul>
                                 </div>
+
                             </div><!--//item-->
-                            <div class="item">
-                                <div class="item-heading row align-items-center mb-2">
-                                    <h4 class="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0">Project Sed Fringilla</h4>
-                                    <div class="item-meta col-12 col-md-6 col-lg-4 text-muted text-left text-md-right">Open Source</div>
-                                    
-                                </div>
-                                <div class="item-content">
-                                    <p>You can use this section for your side projects. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim.</p>
-                                    
-                                </div>
-                            </div><!--//item-->
-                            <div class="item">
-                                <div class="item-heading row align-items-center mb-2">
-                                    <h4 class="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0">Project Praesent </h4>
-                                    <div class="item-meta col-12 col-md-6 col-lg-4 text-muted text-left text-md-right">Open Source</div>
-                                    
-                                </div>
-                                <div class="item-content">
-                                    <p>You can use this section for your side projects. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim.</p>
-                                    
-                                </div>
-                            </div><!--//item-->
-                        </section><!--//project-section-->	
+                        </section><!--//work-section-->
                     </div><!--//resume-main-->
                     <aside class="resume-aside col-12 col-lg-4 col-xl-3 px-lg-4 pb-lg-4">
                         <section class="skills-section py-3">
@@ -159,10 +116,10 @@
                             <div class="item">
                                 <h4 class="item-title">Technical</h4>
                                 <ul class="list-unstyled resume-skills-list">
-                                    <li class="mb-2">JavaScript/Angular/React/Vue</li>
-                                    <li class="mb-2">Python/Ruby/PHP<li>
-                                        <li class="mb-2">Node.js/ASP.NET</li>
-                                        <li class="mb-2">PostgreSQL/MySQL</li>
+                                    <li class="mb-2">JavaScript/Angular</li>
+                                    <li class="mb-2">ASP.NET MVC<li>
+                                        <li class="mb-2">.NET CORE APIs</li>
+                                        <li class="mb-2">SQL</li>
                                         <li class="mb-2">Object-oriented design</li>
                                         <li class="mb-2">Design and implement database structures</li>
                                         <li>Lead and deliver complex software systems</li>
@@ -182,27 +139,9 @@
                                     <h3 class="text-uppercase resume-section-heading mb-4">Education</h3>
                                     <ul class="list-unstyled resume-education-list">
                                         <li class="mb-3">
-                                            <div class="resume-degree font-weight-bold">MSc in Computer Science</div>
-                                            <div class="resume-degree-org text-muted">University College London</div>
-                                            <div class="resume-degree-time text-muted">2010 - 2011</div>
-                                        </li>
-                                        <li>
-                                            <div class="resume-degree font-weight-bold">BSc Maths and Physics</div>
-                                            <div class="resume-degree-org text-muted">Imperial College London</div>
-                                            <div class="resume-degree-time text-muted">2007 - 2010</div>
-                                        </li>
-                                    </ul>
-                                </section><!--//education-section-->
-                                <section class="education-section py-3">
-                                    <h3 class="text-uppercase resume-section-heading mb-4">Awards</h3>
-                                    <ul class="list-unstyled resume-awards-list">
-                                        <li class="mb-3">
-                                            <div class="font-weight-bold">Award Lorem Ipsum</div>
-                                            <div class="text-muted">Microsoft lorem ipsum (2019)</div>
-                                        </li>
-                                        <li>
-                                            <div class="font-weight-bold">Award Donec Sodales</div>
-                                            <div class="text-muted">Oracle Aenean (2017)</div>
+                                            <div class="resume-degree font-weight-bold">BS in Computer Science</div>
+                                            <div class="resume-degree-org text-muted">Virtual University of Pakistan</div>
+                                            <div class="resume-degree-time text-muted">2013 - 2018</div>
                                         </li>
                                     </ul>
                                 </section><!--//education-section-->
@@ -210,15 +149,16 @@
                                     <h3 class="text-uppercase resume-section-heading mb-4">Languages</h3>
                                     <ul class="list-unstyled resume-lang-list">
                                         <li class="mb-2">English <span class="text-muted">(Native)</span></li>
-                                        <li>Spanish <span class="text-muted">(Professional)</span></li>
+                                        <li>Urdu <span class="text-muted">(Professional)</span></li>
+                                        <li>Punjabi <span class="text-muted">(Professional)</span></li>
                                     </ul>
                                 </section><!--//certificates-section-->
                                 <section class="skills-section py-3">
                                     <h3 class="text-uppercase resume-section-heading mb-4">Interests</h3>
                                     <ul class="list-unstyled resume-interests-list mb-0">
-                                        <li class="mb-2">Climbing</li>
-                                        <li class="mb-2">Snowboarding</li>
-                                        <li class="mb-2">Photography</li>
+                                        <li class="mb-2">Table Tennis</li>
+                                        <li class="mb-2">Watch English Movies</li>
+                                        <li class="mb-2">Research in New Technologies</li>
                                         <li>Travelling</li>
                                     </ul>
                                 </section><!--//certificates-section-->
@@ -229,9 +169,9 @@
                     <hr>
                     <div class="resume-footer text-center">
                         <ul class="resume-social-list list-inline mx-auto mb-0 d-inline-block text-muted">
-                            <li class="list-inline-item mb-lg-0 mr-3"><a class="resume-link" href="#"><i class="fab fa-github-square fa-2x mr-2" data-fa-transform="down-4"></i><span class="d-none d-lg-inline-block text-muted">github.com/username</span></a></li>
-                            <li class="list-inline-item mb-lg-0 mr-3"><a class="resume-link" href="#"><i class="fab fa-linkedin fa-2x mr-2" data-fa-transform="down-4"></i><span class="d-none d-lg-inline-block text-muted">linkedin.com/in/username</span></a></li>
-                            <li class="list-inline-item mb-lg-0 mr-lg-3"><a class="resume-link" href="#"><i class="fab fa-twitter-square fa-2x mr-2" data-fa-transform="down-4"></i><span class="d-none d-lg-inline-block text-muted">@twittername</span></a></li>
+                            <li class="list-inline-item mb-lg-0 mr-3"><a class="resume-link" href="#"><i class="fab fa-github-square fa-2x mr-2" data-fa-transform="down-4"></i><span class="d-none d-lg-inline-block text-muted">https://github.com/kamran-sadiq</span></a></li>
+                            <li class="list-inline-item mb-lg-0 mr-3"><a class="resume-link" href="#"><i class="fab fa-linkedin fa-2x mr-2" data-fa-transform="down-4"></i><span class="d-none d-lg-inline-block text-muted">https://www.linkedin.com/in/kamran-sadiq-794592112/</span></a></li>
+                            <li class="list-inline-item mb-lg-0 mr-lg-3"><a class="resume-link" href="#"><i class="fab fa-twitter-square fa-2x mr-2" data-fa-transform="down-4"></i><span class="d-none d-lg-inline-block text-muted">@kamran_sadiq6</span></a></li>
                         </ul>
                     </div>
                 </article>
