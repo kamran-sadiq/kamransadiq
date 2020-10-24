@@ -225,25 +225,24 @@
                 </div><!--//col-->
             </div><!--//row-->
             <div class="text-center py-3"><a routerLink="/portfolio" class="btn btn-primary"><i class="fas fa-arrow-alt-circle-right mr-2"></i>View Portfolio</a></div>
-            
+        
+            <!-- <button type="button" class="btn btn-primary" (click)="openModal(template)">Create template modal</button> -->
+
         </div><!--//container-->
     </section><!--//featured-section-->
     
-    <div class="container"><hr>
-
-        <button type="button" class="btn btn-primary" (click)="openModal(template)">Create template modal</button>
- 
-        <ng-template #template>
-          <div class="modal-header">
-            <h4 class="modal-title pull-left">Modal</h4>
-            <button type="button" class="close pull-right" aria-label="Close" (click)="modalRef.hide()">
-              <span aria-hidden="true">&times;</span>
-            </button>
-          </div>
-          <div class="modal-body">
-            This is a modal.
-          </div>
-        </ng-template>
-    </div>
+    <div class="container"><hr></div>
     
 </div>
+
+<ng-template #template>
+    <div class="modal-header">
+      <h4 class="modal-title pull-left">Modal</h4>
+      <button type="button" class="close pull-right" aria-label="Close" (click)="modalRef.hide()">
+        <span aria-hidden="true">&times;</span>
+      </button>
+    </div>
+    <div class="modal-body">
+      This is a modal.
+    </div>
+  </ng-template>

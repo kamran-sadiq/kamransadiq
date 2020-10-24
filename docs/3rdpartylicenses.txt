@@ -542,6 +542,14 @@ OTHER DEALINGS IN THE SOFTWARE.
 jspdf
 MIT
 
+ngx-bootstrap/component-loader
+
+ngx-bootstrap/modal
+
+ngx-bootstrap/positioning
+
+ngx-bootstrap/utils
+
 performance-now
 MIT
 Copyright (c) 2013 Braveg1rl

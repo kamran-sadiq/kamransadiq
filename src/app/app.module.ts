@@ -8,6 +8,7 @@ import { AboutMeComponent } from './about-me/about-me.component';
 import { PortfolioComponent } from './portfolio/portfolio.component';
 import { ResumeComponent } from './resume/resume.component';
 import { ContactComponent } from './contact/contact.component';
+import { BsModalService, ModalModule } from 'ngx-bootstrap/modal';
 
 
 @NgModule({
@@ -22,6 +23,7 @@ import { ContactComponent } from './contact/contact.component';
     BrowserModule,
     AppRoutingModule,
     LayoutModule,
+    ModalModule.forRoot(),
     //AboutMeModule,
     //ProtFolioModule,
     //ResumeModule
