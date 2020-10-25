@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 declare var particlesJS: any;
-
+declare var $ : any;
 @Component({
   selector: 'app-contact',
   templateUrl: './contact.component.html',
@@ -121,6 +121,17 @@ export class ContactComponent implements OnInit {
     //   },
     //   "retina_detect": true
     // });
+
+  
+  }
+
+  sendMail(contactform) {
+    var link = "mailto:kamransadiq111@gmail.com"
+      + "?subject=" + encodeURIComponent($('#cname').val())
+      + "&body=" + encodeURIComponent($('#cmessage').val())
+      ;
+
+    window.location.href = link;
   }
 
 }
